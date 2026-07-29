@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="So3wwgRWfvLg7Ps26PTG">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dept" value="부서 (Department)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emp" value="사원 (Employee)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="proj" value="프로젝트 (Project)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_belong" value="소속" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_part" value="참여" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dept_code" value="&lt;u&gt;부서코드&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dept_name" value="부서명" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dept_loc" value="위치" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emp_no" value="&lt;u&gt;사원번호&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emp_name" value="사원명" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emp_pos" value="직급" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="emp_sal" value="급여" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="proj_no" value="&lt;u&gt;프로젝트번호&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="proj_name" value="프로젝트명" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="proj_budget" value="예산" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="part_dur" value="참여기간" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dept_code" edge="1" parent="1" source="dept" target="dept_code" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dept_name" edge="1" parent="1" source="dept" target="dept_name" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dept_loc" edge="1" parent="1" source="dept" target="dept_loc" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_no" edge="1" parent="1" source="emp" target="emp_no" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_name" edge="1" parent="1" source="emp" target="emp_name" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_pos" edge="1" parent="1" source="emp" target="emp_pos" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_sal" edge="1" parent="1" source="emp" target="emp_sal" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_proj_no" edge="1" parent="1" source="proj" target="proj_no" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_proj_name" edge="1" parent="1" source="proj" target="proj_name" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_proj_budget" edge="1" parent="1" source="proj" target="proj_budget" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_part_dur" edge="1" parent="1" source="rel_part" target="part_dur" style="endArrow=none;html=1;rounded=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dept_belong" value="1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=12;" edge="1" parent="1" source="dept" target="rel_belong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_belong" value="N" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=12;" edge="1" parent="1" source="emp" target="rel_belong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_emp_part" value="M" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=12;" edge="1" parent="1" source="emp" target="rel_part">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_proj_part" value="N" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=12;" edge="1" parent="1" source="proj" target="rel_part">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
