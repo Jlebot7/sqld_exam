@@ -1,4 +1,3 @@
-# sqld_exam
 classDiagram
   class Vehiculo {
     +varchar(50) VIN {PK, UNIQUE}
